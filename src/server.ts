@@ -32,7 +32,7 @@ const port = process.env.PORT || 4000;
 
     server.applyMiddleware({ app, cors: false });
 
-    app.listen(port, () => console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`));
+    app.listen(port, () => console.log(`🚀 Server ready at http://localhost:${port}${server.graphqlPath}`));
 })();
 
 export interface IContext {
