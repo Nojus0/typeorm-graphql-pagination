@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "start": "cd dist & node server.js"
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
